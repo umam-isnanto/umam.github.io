@@ -1,0 +1,49 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .content {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+
+  .halamanawal h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .bagian-utama{
+    height: 550px;
+  }
+
+}
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .content {
+    width: 95%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
+    display:none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  #tag-menu{
+    display:block;
+}
+
+  .halamanawal h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+}
